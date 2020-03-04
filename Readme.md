@@ -1,4 +1,10 @@
+# 说明
+
+本仓库为Hexo-admin汉化版本，以下为官方文档。
+
 ![logo](docs/logo.png?raw=true)
+
+
 
 An admin UI for the [Hexo blog engine](http://hexo.io). Based off of the [Ghost](http://ghost.org) interface, with inspiration from [svbtle](http://svbtle.com) and [prose.io](http://prose.io).
 
@@ -67,6 +73,7 @@ require you to enter your password.
 ### 5. Custom post metadata
 To add and edit your own post metadata with the admin interface, add the
 metadata variable and your custom variables to your hexo `_config.yml`:
+
 ```
 metadata:
   author_id: defaultAuthorId
