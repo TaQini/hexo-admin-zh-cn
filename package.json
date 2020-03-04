@@ -1,5 +1,5 @@
 {
-  "name": "hexo-admin-zh",
+  "name": "hexo-admin-zh-cn",
   "version": "1.0.0",
   "description": "hexo-admin for Chinese",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TaQini/hexo-admin-zh.git.git"
+    "url": "git+https://github.com/TaQini/hexo-admin-cn.git.git"
   },
   "keywords": [
     "hexo",
@@ -20,9 +20,9 @@
   "author": "TaQini",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jaredly/hexo-admin/issues"
+    "url": "https://github.com/TaQini/hexo-admin-zh-cn/issues"
   },
-  "homepage": "https://github.com/TaQini/hexo-admin-zh.git#readme",
+  "homepage": "https://github.com/TaQini/hexo-admin-zh-cn.git#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.5.0",
