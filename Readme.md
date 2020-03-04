@@ -7,6 +7,12 @@
 npm install --save hexo-admin-zh-cn
 ```
 
+汉化操作
+```shell
+cd node_modules
+cp -r hexo-admin-zh-cn hexo-admin
+```
+
 其余操作同以下文档
 
 ![logo](docs/logo.png?raw=true)
