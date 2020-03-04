@@ -1,59 +1,28 @@
 {
-  "_from": "hexo-admin",
-  "_id": "hexo-admin@2.3.0",
-  "_inBundle": false,
-  "_integrity": "sha1-UmRI6Rw9ObSKAgUmQg43NJzYrEI=",
-  "_location": "/hexo-admin",
-  "_phantomChildren": {
-    "arr-flatten": "1.1.0",
-    "async-each": "1.0.3",
-    "bluebird": "3.7.2",
-    "ent": "2.2.0",
-    "escape-string-regexp": "1.0.5",
-    "expand-range": "1.8.2",
-    "filename-regex": "2.0.1",
-    "fsevents": "1.2.11",
-    "graceful-fs": "4.2.3",
-    "inherits": "2.0.4",
-    "is-binary-path": "1.0.1",
-    "is-posix-bracket": "0.1.1",
-    "js-yaml": "3.13.1",
-    "kind-of": "3.2.2",
-    "object.omit": "2.0.1",
-    "parse-glob": "3.0.4",
-    "path-is-absolute": "1.0.1",
-    "preserve": "0.2.0",
-    "readdirp": "2.2.1",
-    "regex-cache": "0.4.4",
-    "remove-trailing-separator": "1.1.0",
-    "repeat-element": "1.1.3"
+  "name": "hexo-admin-zh",
+  "version": "1.0.0",
+  "description": "hexo-admin for Chinese",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "gulp build"
   },
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "hexo-admin",
-    "name": "hexo-admin",
-    "escapedName": "hexo-admin",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaQini/hexo-admin-zh.git.git"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
+  "keywords": [
+    "hexo",
+    "admin",
+    "dashboard",
+    "plugin",
+    "chinese"
   ],
-  "_resolved": "https://registry.npmjs.org/hexo-admin/-/hexo-admin-2.3.0.tgz",
-  "_shasum": "526448e91c3d39b48a020526420e37349cd8ac42",
-  "_spec": "hexo-admin",
-  "_where": "/opt/hexo/blog",
-  "author": {
-    "name": "Jared Forsyth",
-    "email": "jared@jaredforsyth.com"
-  },
+  "author": "TaQini",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jaredly/hexo-admin/issues"
   },
-  "bundleDependencies": false,
+  "homepage": "https://github.com/TaQini/hexo-admin-zh.git#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.5.0",
@@ -64,15 +33,13 @@
     "express-session": "^1.10.3",
     "extend": "^3.0.0",
     "hexo-front-matter": "^0.2.2",
-    "hexo-fs": "^0.1.3",
+    "hexo-fs": "0.2.3",
     "hexo-util": "^0.1.6",
     "less": "^2.5.1",
     "moment": "^2.7.0",
     "serve-static": "^1.4.0",
     "write-good": "^0.10.0"
   },
-  "deprecated": false,
-  "description": "Adds an admin section to the hexo server",
   "devDependencies": {
     "browserify": "^11.2.0",
     "codemirror": "^5.24.2",
@@ -91,26 +58,8 @@
     "reactify": "^0.14.0",
     "superagent": "^0.18.2",
     "superagent-browserify": "0.0.2",
-    "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^1.1.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
-  },
-  "homepage": "http://jaredly.github.io/hexo-admin/",
-  "keywords": [
-    "hexo",
-    "admin",
-    "dashboard",
-    "plugin"
-  ],
-  "license": "ISC",
-  "main": "index.js",
-  "name": "hexo-admin",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jaredly/hexo-admin.git"
-  },
-  "scripts": {
-    "prepublish": "gulp build"
-  },
-  "version": "2.3.0"
+  }
 }

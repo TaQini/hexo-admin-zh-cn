@@ -2,6 +2,13 @@
 
 本仓库为Hexo-admin汉化版本，以下为官方文档。
 
+安装方式
+```shell
+npm install --save hexo-admin
+```
+
+其余操作同以下文档
+
 ![logo](docs/logo.png?raw=true)
 
 
