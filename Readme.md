@@ -4,7 +4,7 @@
 
 安装方式
 ```shell
-npm install --save hexo-admin
+npm install --save hexo-admin-zh
 ```
 
 其余操作同以下文档
